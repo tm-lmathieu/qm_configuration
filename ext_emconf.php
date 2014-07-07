@@ -11,34 +11,30 @@
 ########################################################################
 
 $EM_CONF[$_EXTKEY] = array(
-	'title' => 'QmConfiguration',
-	'description' => 'Extension allowing getting configuration of an extension from everywhere.',
-	'category' => 'be',
-	'author' => 'Guy Couronné',
-	'author_email' => 'guy.couronne@qcmedia.ca',
-	'author_company' => 'QcMédia',
-	'shy' => '',
-	'priority' => '',
-	'module' => '',
-	'state' => 'beta',
-	'internal' => '',
-	'uploadfolder' => '0',
-	'createDirs' => '',
-	'modify_tables' => '',
-	'clearCacheOnLoad' => 0,
-	'lockType' => '',
-	'version' => '1.0.0',
-	'constraints' => array(
-		'depends' => array(
-			'extbase' => '1.3',
-			'fluid' => '1.3',
-			'typo3' => '4.5.0-6.2.99',
-		),
-		'conflicts' => array(
-		),
-		'suggests' => array(
-		),
-	),
+    'title' => 'QmConfiguration',
+    'description' => "This extension offers simple static methods to fetch the configuration (LocalConfiguration, ext_conf_template and TypoScript) of any extension from both frontend and backend.",
+    'category' => 'be',
+    'author' => 'Guy Couronné',
+    'author_email' => 'guy.couronne@qcmedia.ca',
+    'author_company' => 'QcMédia',
+    'shy' => '',
+    'priority' => '',
+    'module' => '',
+    'state' => 'beta',
+    'internal' => '',
+    'uploadfolder' => '0',
+    'createDirs' => '',
+    'modify_tables' => '',
+    'clearCacheOnLoad' => 0,
+    'lockType' => '',
+    'version' => '1.0.1',
+    'constraints' => array(
+        'depends' => array(
+            'typo3' => '4.5.0-6.2.99',
+        ),
+        'conflicts' => array(
+        ),
+        'suggests' => array(
+        ),
+    ),
 );
-
-?>

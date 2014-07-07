@@ -1,7 +1,7 @@
 {
     "name": "qcmedia/qm_configuration",
-    "description": "Extension allowing getting configuration of an extension from everywhere.",
-    "version": "1.0.0",
+    "description": "This extension offers simple static methods to fetch the configuration (LocalConfiguration, ext_conf_template and TypoScript) of any extension from both frontend and backend.",
+    "version": "1.0.1",
     "type": "typo3-module",
     "keywords": [
         "typo3"
@@ -19,11 +19,6 @@
     "support": {
         "source": "https://github.com/qcmedia/qm_configuration/tree/master",
         "issues": "https://github.com/qcmedia/qm_configuration/issues"
-    },
-    "autoload": {
-        "classmap": [
-            "../Classes/"
-        ]
     },
     "minimum-stability": "RC",
     "extra": {
